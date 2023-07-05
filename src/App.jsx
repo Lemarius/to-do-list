@@ -1,5 +1,13 @@
+import List from './components/list/List';
+import { GlobalStyles } from './styles/globalStyles';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<GlobalStyles />
+			<List />
+		</>
+	);
 };
 
 export default App;
